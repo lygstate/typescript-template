@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig-base.json",
+  "include": [
+    "packages/empty/**/*.ts",
+    "scripts/**/*.mjs",
+    ".eslintrc.js",
+    "jest.config.ts",
+    "packages/*/jest.config.ts",
+  ]
+}
